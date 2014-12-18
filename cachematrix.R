@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## The purpose of the cacheSolve function is to calculate the inverse of a 
-## "special" matrix created using above function
+## "special" matrix created using above function.
 
 cacheSolve <- function(x, ...) {
 	## get the cached value
